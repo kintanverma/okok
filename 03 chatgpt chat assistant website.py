@@ -3,7 +3,7 @@ import gradio
 
 openai.api_key = "####"
 
-messages = [{"role": "system", "content": "You are a financial experts that specializes in real estate investment and negotiation"}]
+messages = [{"role": "system", "content": "You are an AI assistant that is an expert in cyber crime. You know about online scams, cyber crime. You can provide advice on how to prevent cyber crimes, how to save yourself from cyber crimes, online scams and anything related to cyber crime."}]
 
 def CustomChatGPT(user_input):
     messages.append({"role": "user", "content": user_input})
